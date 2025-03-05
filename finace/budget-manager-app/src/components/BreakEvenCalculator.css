@@ -1,0 +1,33 @@
+.break-even-calculator {
+    padding: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.break-even-calculator h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.break-even-calculator input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.break-even-calculator input:focus {
+    border-color: #4CAF50;
+}
+
+.break-even-calculator p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}

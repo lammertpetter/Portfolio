@@ -1,0 +1,24 @@
+.business-page {
+    text-align: center;
+    padding: 50px;
+}
+
+.business-page h1 {
+    margin-bottom: 20px;
+}
+
+.business-page p {
+    margin-bottom: 40px;
+}
+
+.business-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.business-tools {
+    flex: 1;
+    min-width: 300px;
+}
